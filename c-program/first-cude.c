@@ -40,3 +40,4 @@ int main(void)
   free(x);
   free(y);
 }
+//reference:https://devblogs.nvidia.com/parallelforall/easy-introduction-cuda-c-and-c/
