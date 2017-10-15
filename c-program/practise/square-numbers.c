@@ -10,29 +10,29 @@ int main(int argc, char ** argv){
 	const int ARRAY_SIZE=64;
 	const int ARRAY_BYTES=ARRAY_SIZE * sizeof(float);
 
-	//generate the input array on the host
+	//generate the input array on the host, data on the CPU
 	float h_in[ARRAY_SIZE];
 	for(int i=0; i< ARRAY_SIZE; i++){
 		h_in[i]=float(i);
 	}
 	float h_out[ARRAY_SIZE];
 
-	//declare GPU memory pointers
+	//declare GPU memory pointers, data on the GPU
 	float * d_in;
-	float *d_out;
+	float * d_out;
 
-	//allocate GPU memory
+	//allocate GPU memory, tell CUDA the data is on the GPU
 	cudaMalloc((void **) &d_in, ARRAY_BYTES);
 	cudaMalloc((void **) &d_out, ARRAY_BYTES);
 
 	//transfer the array to GPU
-	cudaMemcpy(d_in, h_in, ARRAY_BYTES, cudaMemcpy???);
+	cudaMemcpy(d_in, h_in, ARRAY_BYTES, cudaMemcpyHostToDevice);
 
-	//launch the kernel
+	//launch the kernel in one block with 64 bytes
 	square<<<1, ARRAY_SIZE>>>(d_out, d_in);
 
 	//copy back the result array to the CPU
-	cudaMemcpy(h_out, d_out, ARRAY_BYTES, cudaMemcpy???);
+	cudaMemcpy(h_out, d_out, ARRAY_BYTES, cudaMemcpyDviceToHost);
 
 	//print out the resulting array
 	for(int i=0; i<ARRAY_SIZE; i++){
