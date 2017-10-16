@@ -14,7 +14,7 @@ void print_array(int *array, int size)
 __global__ void increment_naive(int *g)
 {
 	//which thread is this?
-	ing i= blockIdx.x * blockDim.x + threadIdx.x;
+	int i= blockIdx.x * blockDim.x + threadIdx.x;
 
 	//each thread to increment consecutive elements, wrapping at ARRAY_SIZE
 	i = i % ARRAY_SIZE;
