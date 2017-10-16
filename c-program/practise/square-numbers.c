@@ -1,10 +1,23 @@
 #include <stdio.h>
 
+//use void so the kernel does not return a value
+//instead it will pass the data to the pointer
 _global_ void square(float * d_out, float * d_in){
-	int idx= threadIdx.x;
+	int idx= threadIdx.x; //each thread knows it index
 	float f=d_in[idx];
 	d_out[idx]=f*f;
+
+
 }
+
+/*
+	compute cubic
+_global_ void cube(float *d_out, float *d_in){
+		int dix=threadIdx.x;
+		float f=d_in[idx];
+		d_out[idx]=f*f*f;
+	}
+*/
 
 int main(int argc, char ** argv){
 	const int ARRAY_SIZE=64;
