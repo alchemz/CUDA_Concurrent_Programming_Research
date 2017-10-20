@@ -23,7 +23,7 @@ Terminology:
   | struct        |        switch |       typedef |         union |      unsigned |          void |
   | volatile      |         while |               |               |               |               |
 
-| First   | Second   |
+|    |    |
 | ------------- | ------------- |
 | auto  | break  |
 | default  | do  |
