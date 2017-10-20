@@ -25,5 +25,5 @@ Terminology:
 
 |    |    |    |    |    |    |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| auto  | break  |
+| auto  | break  | case | char | const | continue |
 | default  | do  |
