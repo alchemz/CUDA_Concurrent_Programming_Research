@@ -25,5 +25,5 @@ Terminology:
 
 | First Header  | Second Header |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| auto  | break  |
+| default  | do  |
