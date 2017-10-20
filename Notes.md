@@ -21,7 +21,7 @@ Terminology:
   |float    |      for|     goto|      if|        int|       long|
   |register |   return|    short|  signed|     sizeof|     static|
   |struct   |   switch|  typedef|   union|   unsigned|       void|
-  |volatile |    while| 
+  |volatile |    while|         |        |           |           |
 
 | First Header  | Second Header |
 | ------------- | ------------- |
