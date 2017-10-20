@@ -1,5 +1,6 @@
 Terminology:
 -----------------
+*10-19-2017
 1. preprocessor
 2. return the successfull termination value
 3. <>look in the standard folder for the headers
