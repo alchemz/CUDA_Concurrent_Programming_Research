@@ -11,3 +11,12 @@ Terminology:
 8. <<, left shifts the bits of first operand, and the second operand decides the number of places to shift
 9, >>, right shifts the bits of first operand, and the second operand decides the number of places to shift
 10. ~, bitwise NOT, takes one number and inverts all bits of it
+
+* 10-20-2017
+1. The 32 keywords of C Programming
+  auto       break    case     char     const     continue
+  default    do       double   else     enum      extern
+  float      for      goto     if       int       long
+  register   return   short    signed   sizeof    static
+  struct     switch   typedef  union    unsigned  void
+  volatile   while 
