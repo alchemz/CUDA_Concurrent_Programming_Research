@@ -26,4 +26,5 @@ Terminology:
 |    |    |    |    |    |    |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | auto  | break  | case | char | const | continue |
-| default  | do  |
+| default  | do  | double | else | enum | extern |
+
