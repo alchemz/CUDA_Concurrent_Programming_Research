@@ -15,8 +15,15 @@ Terminology:
 * 10-20-2017
 1. The 32 keywords of C Programming
 
-| First Header  | Second Header | First Header  | Second Header | First Header  | Second Header |
+|   |  |   |  |   |  |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | auto  | break  | case | char | const | continue |
 | default  | do  | double | else | enum | extern |
+| float | for | goto | if | int | long
 
+  auto       break    case     char     const     continue
+  default    do       double   else     enum      extern
+  float      for      goto     if       int       long
+  register   return   short    signed   sizeof    static
+  struct     switch   typedef  union    unsigned  void
+  volatile   while 
