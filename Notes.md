@@ -14,6 +14,7 @@ Terminology:
 
 * 10-20-2017
 1. The 32 keywords of C Programming
+  | First     | Second    | Third     | Forth    | Fifth       | Sixth       |
   | --------- | --------- | --------- | -------- | ----------- | ----------- |
   |auto     |    break|     case|    char|      const|   continue|
   |default  |       do|   double|    else|       enum|     extern|
